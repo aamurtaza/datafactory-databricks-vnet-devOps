@@ -1,0 +1,20 @@
+{
+	"name": "ads_rai_data_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7184709090331266.6.azuredatabricks.net",
+			"accessToken": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kv_rai_ls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adsRaiDevAccessToken"
+			},
+			"existingClusterId": "0727-143456-slate807"
+		}
+	}
+}

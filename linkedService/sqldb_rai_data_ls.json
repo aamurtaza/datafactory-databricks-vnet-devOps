@@ -1,0 +1,18 @@
+{
+	"name": "sqldb_rai_data_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kv_rai_ls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlDbRaiDevConString"
+			}
+		}
+	}
+}

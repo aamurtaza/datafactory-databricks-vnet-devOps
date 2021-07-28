@@ -1,0 +1,9 @@
+{
+	"name": "adf-rai-data-dev",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "519e2779-fc62-44f0-a093-96fa50cb672e",
+		"tenantId": "ef90c086-be63-49c9-912c-d5365ffa61f9"
+	}
+}

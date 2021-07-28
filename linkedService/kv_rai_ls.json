@@ -1,0 +1,11 @@
+{
+	"name": "kv_rai_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kvrai.vault.azure.net/"
+		}
+	}
+}

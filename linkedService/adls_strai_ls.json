@@ -1,0 +1,19 @@
+{
+	"name": "adls_strai_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://strai001.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kv_rai_ls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "stRai001AccessKey"
+			}
+		}
+	}
+}
