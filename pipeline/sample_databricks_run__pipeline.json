@@ -100,7 +100,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Repos/devOps/datafactory-databricks-devOps/notebooks/sample"
+					"notebookPath": "/Repos/devOps/datafactory-databricks-vnet-devOps/notebooks/sample"
 				},
 				"linkedServiceName": {
 					"referenceName": "ads_rai_data_ls",
