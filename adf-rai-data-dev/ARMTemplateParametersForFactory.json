@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-rai-data-dev"
+		},
+		"adls_strai_ls_properties_typeProperties_url": {
+			"value": "https://strai001.dfs.core.windows.net"
+		},
+		"kv_rai_ls_properties_typeProperties_baseUrl": {
+			"value": "https://kvrai.vault.azure.net/"
+		},
+		"sqldb_rai_data_ls_properties_typeProperties_connectionString_secretName": {
+			"value": "sqlDbRaiDevConString"
+		}
+	}
+}
