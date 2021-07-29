@@ -12,7 +12,7 @@ try:
 
   # Optionally, you can add <directory-name> to the source URI of your mount point.
   dbutils.fs.mount(
-    source = "abfss://dev@strai002.dfs.core.windows.net/",
+    source = "abfss://dev@strai001.dfs.core.windows.net/",
     mount_point = "/mnt/storage",
     extra_configs = configs)
 
